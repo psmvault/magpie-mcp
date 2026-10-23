@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "link.morningbrief/magpie",
+  "title": "Magpie — USDA Ag Markets: Grain, Fertilizer, WASDE & Export Sales",
+  "description": "USDA farm data for AI agents: prices, WASDE, export sales, crop stats. 30 tools, free, no key.",
+  "version": "1.1.0",
+  "websiteUrl": "https://morningbrief.link",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ag.morningbrief.link/mcp"
+    }
+  ]
+}
